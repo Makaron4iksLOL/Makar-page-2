@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    font-family: "Open Sans", serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 0; 
+    height: 100px; 
+    background: linear-gradient(to left, #cebde1, #cebde1, #c8d1eb); 
+
+}
+.text {
+    float: right;
+    width: 600px;
+}
+h1 {
+    width: 500px;
+    transition: 2s;
+}
+span {
+    font-weight: bold;
+}
+
+/*Hohohover*/
+
+
+span:hover {
+    font-size: 25px;
+    transition: 1s;
+    color: rgb(150, 88, 150);
+}
+h1:hover{
+    color: rgb(150, 88, 150);
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+/*logo*/
+
+.balsamiq{
+
+}
+.trello{
+
+}
+.gravitDesigner{
+
+}
+.sketch{
+
+}
+.inVision{
+
+}
+.looka{
+
+}
+.placeit{
+
+}
+.iconmonstr{
+
+}
+.webflow{
+
+}
+.zeplin{
+
+}
+.photopea{
+
+}
+
+/*Photo*/
+
+.abstractCream {
+    transform: translateY(-100px);
+}
